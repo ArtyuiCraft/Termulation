@@ -3,7 +3,7 @@ Termulation is a terminal base retro game launcher it uses fzf for selecting the
 # Install
 download the program and make sure that you have fzf installed
 # config
-the  config file is expected next to the executable called config.json
+the  config file is expected next to the executable. it has to be named config.json
 ## Adding a system
 adding a system is easy you just copy this example config and add in the parameters
 ```json
