@@ -12,7 +12,7 @@ adding a system is easy you just copy this example config and add in the paramet
 		"name": "name of console"
 		"gamefolder": "full path to the folder  with roms"
 		"command": "emulator -f %ROM%"
-		}
+	}
 }
 ```
 the `%ROM%` gets replaced with the path  of the rom
