@@ -1,26 +1,34 @@
 # Termulation
-Termulation is a terminal base retro game launcher it uses fzf for selecting the system and game
-# Install
-make sure you have fzf installed
+Termulation is a terminal-based retro game launcher. It uses fzf for selecting the system and game.
 
-for windows:
-download the exe
+## Install
+Make sure you have fzf installed.
 
-for linux and mac:
-download the python file and then chmod it to make it executable and then just run it
-# config
-## !!!THE CONFIG FILE CAN'T BE EMPTY ELSE IT WILL CRASH!!!
+### Automatic Installation
+Not yet implemented; will be available in version 1.1.
 
-the  config file is expected next to the executable. it has to be named config.json
-## Adding a system
-adding a system is easy you just copy this example config and add in the parameters
+### Manual Installation
+#### Windows:
+Download the .exe and add it to the PATH so that you can run it from anywhere.
+
+#### Linux and macOS:
+Download the binary, then chmod it to make it executable, and finally, run it.
+
+## Configuration
+### !!!THE CONFIG FILE CAN'T BE EMPTY, OTHERWISE IT WILL CRASH!!!
+
+The config file is expected to be located next to the executable and must be named `config.json`.
+
+### Adding a System
+Adding a system is easy; you just need to copy this example config and fill in the parameters:
+
 ```json
 {
 	"name of console": {
-		"name": "name of console"
-		"gamefolder": "full path to the folder  with roms"
+		"name": "name of console",
+		"gamefolder": "full path to the folder with ROMs",
 		"command": "emulator -f %ROM%"
 	}
 }
 ```
-the `%ROM%` gets replaced with the path  of the rom
+The `%ROM%` placeholder gets replaced with the path of the ROM.
