@@ -1,6 +1,7 @@
 # Termulation
 Termulation is a terminal base retro game launcher it uses fzf for selecting the system and game
 # Install
+## !!!THE CONFIG FILE CAN'T BE EMPTY ELSE IT WILL CRASH!!!
 make sure you have fzf installed
 
 for windows:
