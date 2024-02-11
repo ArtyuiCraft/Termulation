@@ -1,3 +1,5 @@
+# no longer maintained will be moved to a new project as a plugin
+
 # Termulation
 Termulation is a terminal-based retro game launcher. It uses fzf for selecting the system and game.
 
